@@ -1,0 +1,56 @@
+.date {
+  text-align: center;
+  color: red;
+}
+body {
+  background-color: black;
+  color: red;
+}
+input[type="radio"]:checked + label img {
+  border: 2px solid #d81b60; /* Highlight the selected image */
+}
+
+img {
+  width: 90vw;
+}
+
+h1 {
+  color: red;
+}
+
+.food img,
+.place img {
+  width: 20vw;
+}
+
+.food form,
+.place form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.food {
+  margin-top: 20vh;
+}
+
+.button {
+  position: relative;
+}
+
+.button button {
+  position: absolute;
+  top: 50vh;
+  width: 10vw;
+  height: 3vw;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.final {
+  text-align: center;
+}
+
+.final video {
+  height: 80vh;
+}

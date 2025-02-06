@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="date">
+      <h1>On which day are u free?</h1>
+      <form action="food.html">
+        <label for="date">SELECT THE DATE</label>
+        <input type="date" name="" id="date" />
+        <button id="saveButton">Submit</button>
+      </form>
+      <img src="field-of-yellow-and-white-tulips-free-photo.jpg" alt="" />
+    </div>
+  </body>
+  <script>
+    <!-- document
+      .getElementById("saveButton")
+      .addEventListener("click", function () {
+        const selectedDate = document.getElementById("date").value;
+
+        if (selectedDate) {
+          // Use Blob to create a downloadable file
+          const blob = new Blob([selectedDate], { type: "text/plain" });
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.download = "selected-date.txt"; // Name of the file
+          link.click();
+
+          alert(`Date saved successfully: ${selectedDate}`);
+        } else {
+          alert("Please select a date!");
+        }
+      }); -->
+  </script>
+</html>
